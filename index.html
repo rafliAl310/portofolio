@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafli Alwinsyah - Guardian of Digital Realms</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="fantasy-realm">
+        <div class="mystical-fog"></div>
+        <canvas id="particles-canvas"></canvas>
+    </div>
+
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <img src="Assets/rafli alwinsyah.jpg" alt="logo" class="logo-photo" id="profilephoto">
+                <div class="logo-sigil"></div>
+                <span>RAFLI ALWINSYAH</span>
+            </div>
+            <div id="photoModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="photoEnlarged">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#chronicle">Chronicle</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="theme-toggle">🌙 REALM</button>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-subtitle">⚔️ Guardian of Digital Realms ⚔️</div>
+        <h1 id="typewriter-name"></h1>
+        <p>A Sorcerer of Cybersecurity, wielding the ancient arts of Network Security, VPN Enchantments, and DNS Filtering. Protector against the dark forces of MITM attacks and digital malevolence.</p>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">THE GUARDIAN'S TALE</h2>
+        <div class="about-content">
+            <div class="gothic-card">
+                <span class="card-ornament">🗡️</span>
+                <h3>Origins & Quest</h3>
+                <p>As a keeper of arcane IT knowledge, I have devoted my path to mastering the mystical arts of cybersecurity. My journey through the digital realm has led me to specialize in network protection, VPN sorcery, and the craft of secure web construction.</p>
+                <p style="margin-top: 1rem;">My sacred duties include:</p>
+                <ul style="margin-left: 1.5rem; margin-top: 0.5rem; line-height: 1.8;">
+                    <li>Network Security & Penetration Rituals</li>
+                    <li>VPN Configuration & Mystical Tunneling</li>
+                    <li>DNS Filtering & Domain Warding</li>
+                    <li>Full-Stack Web Enchantment</li>
+                </ul>
+            </div>
+            <div class="gothic-card">
+                <span class="card-ornament">🛡️</span>
+                <h3>Virtues & Powers</h3>
+                <div class="skills-grid">
+                    <div class="rune-tag">Problem Solving</div>
+                    <div class="rune-tag">Critical Thinking</div>
+                    <div class="rune-tag">Teamwork</div>
+                    <div class="rune-tag">Communication</div>
+                    <div class="rune-tag">Research</div>
+                    <div class="rune-tag">Adaptability</div>
+                </div>
+                <h3 style="margin-top: 2rem;">Sacred Oath</h3>
+                <p>I pledge to continuous learning, ethical security practices, and forging solutions that shield the digital realm from darkness and malevolent forces.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">LEGENDARY ARTIFACTS</h2>
+        <div class="projects-grid">
+            <div class="project-scroll">
+                <div class="project-sigil">
+                    <img src="assets/project1.png" alt="Sorcerer's Dashboard" onerror="this.parentElement.innerHTML='<div style=\'font-size:4rem\'>🔮</div>'">
+                </div>
+                <div class="project-content">
+                    <h3>Sorcerer's Security Sanctum</h3>
+                    <p>A mystical dashboard with enchanted monitoring, dark realm aesthetics, and interactive spell-casting charts. Forged with ancient HTML, CSS, and JavaScript runes.</p>
+                    <div style="margin-top: 1rem;">
+                        <span class="rune-tag" style="font-size: 0.8rem;">HTML/CSS</span>
+                        <span class="rune-tag" style="font-size: 0.8rem;">JavaScript</span>
+                        <span class="rune-tag" style="font-size: 0.8rem;">Dark Arts</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-scroll">
+                <div class="project-sigil">
+                    <img src="assets/project2.png" alt="Illusionist's Trap" onerror="this.parentElement.innerHTML='<div style=\'font-size:4rem\'>🎣</div>'">
+                </div>
+                <div class="project-content">
+                    <h3>Illusionist's Trap Simulation</h3>
+                    <p>Educational phishing trap for demonstrating MITM dark magic. Used in sacred research to reveal attack vectors and protection methods.</p>
+                    <div style="margin-top: 1rem;">
+                        <span class="rune-tag" style="font-size: 0.8rem;">PHP</span>
+                        <span class="rune-tag" style="font-size: 0.8rem;">Security</span>
+                        <span class="rune-tag" style="font-size: 0.8rem;">Research</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-scroll">
+                <div class="project-sigil">
+                    <img src="assets/project3.png" alt="VPN Enchantment" onerror="this.parentElement.innerHTML='<div style=\'font-size:4rem\'>🔒</div>'">
+                </div>
+                <div class="project-content">
+                    <h3>VPN + Pi-hole Ward System</h3>
+                    <p>Complete tome of WireGuard VPN enchantment integrated with Pi-hole DNS protection wards. Includes spell configurations and testing scrolls.</p>
+                    <div style="margin-top: 1rem;">
+                        <span class="rune-tag" style="font-size: 0.8rem;">WireGuard</span>
+                        <span class="rune-tag" style="font-size: 0.8rem;">Pi-hole</span>
+                        <span class="rune-tag" style="font-size: 0.8rem;">Linux</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-scroll">
+                <div class="project-sigil">
+                    <img src="assets/project4.png" alt="Network Scrying" onerror="this.parentElement.innerHTML='<div style=\'font-size:4rem\'>🌐</div>'">
+                </div>
+                <div class="project-content">
+                    <h3>Network Scrying Crystal</h3>
+                    <p>Real-time network traffic divination with Wireshark integration. Monitors ethereal packets, detects anomalies, and generates security prophecies.</p>
+                    <div style="margin-top: 1rem;">
+                        <span class="rune-tag" style="font-size: 0.8rem;">Python</span>
+                        <span class="rune-tag" style="font-size: 0.8rem;">Wireshark</span>
+                        <span class="rune-tag" style="font-size: 0.8rem;">Divination</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">ARCANE ABILITIES</h2>
+        <div class="skills-sanctum">
+            <div class="skill-tome">
+                <h3>🔐 Network & Security</h3>
+                <div class="skill-runes">
+                    <div class="rune-tag">WireGuard</div>
+                    <div class="rune-tag">Pi-hole</div>
+                    <div class="rune-tag">VPN Sorcery</div>
+                    <div class="rune-tag">Wireshark</div>
+                    <div class="rune-tag">DNS Warding</div>
+                    <div class="rune-tag">Firewall Magic</div>
+                    <div class="rune-tag">Penetration Rituals</div>
+                </div>
+            </div>
+
+            <div class="skill-tome">
+                <h3>💻 Coding Incantations</h3>
+                <div class="skill-runes">
+                    <div class="rune-tag">Python</div>
+                    <div class="rune-tag">Bash</div>
+                    <div class="rune-tag">HTML</div>
+                    <div class="rune-tag">CSS</div>
+                    <div class="rune-tag">JavaScript</div>
+                    <div class="rune-tag">PHP</div>
+                    <div class="rune-tag">SQL</div>
+                </div>
+            </div>
+
+            <div class="skill-tome">
+                <h3>🛠️ Mystical Tools</h3>
+                <div class="skill-runes">
+                    <div class="rune-tag">Linux</div>
+                    <div class="rune-tag">AWS</div>
+                    <div class="rune-tag">VPS</div>
+                    <div class="rune-tag">GitHub</div>
+                    <div class="rune-tag">Docker</div>
+                    <div class="rune-tag">Git</div>
+                    <div class="rune-tag">VS Code</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2 class="section-title">HONORS & ACCOLADES</h2>
+        <div class="projects-grid">
+            <div class="gothic-card">
+                <span class="card-ornament">🏆</span>
+                <h3>DevOps Engineering</h3>
+                <p>Membangun dan Memelihara Proses Pengembangan Aplikasi dengan Sistem DevOps - Mastery of CI/CD enchantments, automation spells, and infrastructure management.</p>
+                <p style="margin-top: 0.5rem; color: var(--text-muted); font-size: 0.9rem;">Professional Certification • MMXXIV</p>
+            </div>
+
+            <div class="gothic-card">
+                <span class="card-ornament">🏆</span>
+                <h3>Cisco Networking Essentials</h3>
+                <p>Completed comprehensive networking fundamentals covering TCP/IP protocols, routing incantations, and network security wards.</p>
+                <p style="margin-top: 0.5rem; color: var(--text-muted); font-size: 0.9rem;">Cisco Networking Academy • MMXXIII</p>
+            </div>
+
+            <div class="gothic-card">
+                <span class="card-ornament">🏆</span>
+                <h3>Cybersecurity Fundamentals</h3>
+                <p>Advanced training in threat detection, incident response rituals, and security best practices for defending the realm.</p>
+                <p style="margin-top: 0.5rem; color: var(--text-muted); font-size: 0.9rem;">Various Guilds • MMXXIII</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">SUMMON THE GUARDIAN</h2>
+        
+        <div class="contact-chambers">
+            <div class="contact-seal">
+                <h3>📧 Raven Post</h3>
+                <a href="mailto:raflialwi@example.com">raflialwi@example.com</a>
+            </div>
+            <div class="contact-seal">
+                <h3>💼 Guild Hall</h3>
+                <a href="https://linkedin.com/in/raflialwi" target="_blank">linkedin.com/in/raflialwi</a>
+            </div>
+            <div class="contact-seal">
+                <h3>💻 Code Sanctum</h3>
+                <a href="https://github.com/raflialwi" target="_blank">github.com/raflialwi</a>
+            </div>
+        </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="Assets/CV_Rafli Alwinsyah.pdf" class="mystical-button" target="_blank">
+                    <span>📜  GRIMOIRE (CV)</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Rafli Alwinsyah • Guardian of Digital Realms</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem; color: var(--text-muted);">Forged with ancient magic for cybersecurity and innovation</p>
+        <p style="margin-top: 1rem; font-size: 0.8rem; color: var(--deep-purple);">⚔️ May your packets be encrypted and your networks secure ⚔️</p>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
